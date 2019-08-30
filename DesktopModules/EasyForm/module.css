@@ -1,0 +1,166 @@
+/* Styles used on EasyFormSettings page*/
+.Head 
+{
+	font-size: 15px;
+	font-weight:bold;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#AdminWrapper
+{
+	width:700px;
+	text-align:left;
+}
+.AdminSaveLinks 
+{
+	font-size: 11px;
+	font-weight:bold;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.AdminSaveLinks A:hover
+{
+	color: #FF0000;
+}
+
+.AdminSaveLinks A:visited
+{
+	text-decoration: none;
+}
+
+.AdminNoteText 
+{
+	font-size: 11px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	width:100%;
+}
+.AdminTable
+{
+	width:100%;
+}
+.AdminTable td, .AdminTable th
+{
+    padding-top:5px;
+	padding-bottom:5px;
+	text-align:left;
+}
+.AdminTable tr.AdminHeader td, .AdminTable tr.AdminHeader th
+{
+	font-weight:bold;
+	border-bottom:1px solid #ACA899;
+}
+.AdminTable tr.AdminHeader th a
+{
+	color:#000;
+}
+.AdminTable tr.AdminAltRow td
+{
+	background-color:#F0F0ED;
+}
+.AdminField
+{
+	padding-left:5px;
+	width:20%;
+	text-align:left;
+}
+.AdminCheckbox
+{
+	text-align:center;
+	width:75px;
+}
+.AdminLabel
+{
+	padding-right:5px;
+}
+.AdminDashedBox
+{
+    padding:5px;
+    border:1px dashed #ACA899;
+}
+.AdminSingleRow td
+{
+    border-top:1px solid #ACA899;
+    border-bottom:1px solid #ACA899;
+    background-color:#F0F0ED; 
+}
+
+
+
+/* STYLES ON VIEWEASYFORM.ASCX PAGE (this is the page the end-user fills out to submit information) */
+
+/* style div tag around entire page */
+div.EFViewWrapper
+{
+
+}
+
+/* style for page table cells */
+table.EFViewForm td
+{
+    padding:2px 0px;
+}
+
+/* style for page labels */
+table.EFViewForm td.EFLabel
+{
+
+}
+
+/* style for page validator messages */
+table.EFViewForm td.EFValid
+{
+
+}
+
+/* style for form submit button */
+input.EFSubmitButton
+{
+    padding:2px 10px;
+}
+
+/* style for regular textboxes */
+input.EFRegularTextbox
+{
+    width:200px;
+}
+
+/* style for custom textboxes when multiline is NOT used */
+input.EFCustomTextbox
+{
+    width:200px;
+}
+
+/* style for custom textboxes when multiline IS used */
+textarea.EFCustomTextbox
+{
+    width:200px;
+}
+
+/* style for custom dropdownlists */
+select.EFCustomDropdown
+{
+    
+}
+
+/* style for state dropdownlists */
+select.EFStateDropdown
+{
+    
+}
+
+/* style for country dropdownlists */
+select.EFCountryDropdown
+{
+    
+}
+
+/* style for Upload control (textbox + browse button) */
+input.EFFileUploadTextboxAndBrowseButton
+{
+    width:200px;
+}
